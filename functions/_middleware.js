@@ -9,5 +9,5 @@ export async function onRequest(context) {
     data, // arbitrary space for passing data between middlewares
   } = context;
 
-  return fetch('https://blog.cyfan.top')
+  return fetch('https://cdn.cyfan.top')
 }
